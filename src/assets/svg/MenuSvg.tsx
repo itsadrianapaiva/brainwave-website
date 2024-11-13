@@ -1,6 +1,4 @@
-interface MenuSvgProps {
-  openNavigation: boolean;
-}
+import { MenuSvgProps } from "../../types/assets";
 
 const MenuSvg: React.FC<MenuSvgProps> = ({ openNavigation }) => {
   return (
