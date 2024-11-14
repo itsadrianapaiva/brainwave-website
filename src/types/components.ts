@@ -4,7 +4,7 @@ export interface ButtonProps {
     className?: string;
     href?: string;
     onClick?: () => void;
-    children?: React.ReactNode;
+    children?: string;
     px?: string;
     white?: boolean;
   }
@@ -13,7 +13,7 @@ export interface ButtonProps {
     className?: string;
     id?: string;
     crosses?: boolean;
-    crossesOffset?: boolean;
+    crossesOffset?: string;
     customPaddings?: boolean;
-    children?: React.ReactNode;
+    children: React.ReactNode;
 }
