@@ -10,8 +10,8 @@ export interface ButtonProps {
   }
 
   export interface SectionProps {
-    className: string;
-    id: string;
+    className?: string;
+    id?: string;
     crosses?: boolean;
     crossesOffset?: boolean;
     customPaddings?: boolean;

@@ -1,4 +1,4 @@
-const PlusSvg = ({ className = "" }) => {
+const PlusSvg: React.FC<{ className?: string }> = ({ className = "" }) => {
   return (
     <svg className={`${className} || ""`} width="11" height="11" fill="none">
       <path
