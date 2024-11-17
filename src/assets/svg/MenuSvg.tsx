@@ -1,6 +1,6 @@
-import { MenuSvgProps } from "../../types/assets";
 
-const MenuSvg: React.FC<MenuSvgProps> = ({ openNavigation }) => {
+
+const MenuSvg: React.FC<{ openNavigation: boolean }> = ({ openNavigation }) => {
   return (
     <svg
       className="overflow-visible"

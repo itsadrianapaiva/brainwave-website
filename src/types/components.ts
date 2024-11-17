@@ -4,7 +4,7 @@ export interface ButtonProps {
     className?: string;
     href?: string;
     onClick?: () => void;
-    children?: string;
+    children?: unknown;
     px?: string;
     white?: boolean;
   }
