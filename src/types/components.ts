@@ -4,7 +4,7 @@ export interface ButtonProps {
     className?: string;
     href?: string;
     onClick?: () => void;
-    children?: unknown;
+    children?: React.ReactNode;
     px?: string;
     white?: boolean;
   }

@@ -57,12 +57,12 @@ import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
-import benefitCard6 from "./benefits/card-6.svg";
+import card1Svg from "../assets/benefits/card-1.tsx";
+import card2Svg from "../assets/benefits/card-2.tsx";
+import card3Svg from "../assets/benefits/card-3.tsx";
+import card4Svg from "../assets/benefits/card-4.tsx";
+import card5Svg from "../assets/benefits/card-5.tsx";
+import card6Svg from "../assets/benefits/card-6.tsx";
 import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
@@ -128,12 +128,6 @@ export {
   notification2,
   notification3,
   notification4,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
@@ -144,4 +138,10 @@ export {
   instagram,
   telegram,
   twitter,
+  card1Svg,
+  card2Svg,
+  card3Svg,
+  card4Svg,
+  card5Svg,
+  card6Svg,
 };
