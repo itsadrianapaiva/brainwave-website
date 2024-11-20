@@ -12,6 +12,7 @@ declare module 'src/constants/index.js' {
     onlyMobile: boolean;
 })[];
 
+
 const benefits: ({
   id: string;
   title: string;
@@ -29,6 +30,28 @@ const benefits: ({
   imageUrl: string;
   light: boolean;
 })[];
+
+
+const collabText: string;
+
+const collabContent: ({
+  id: string;
+  title: string;
+  text: string;
+} | {
+  id: string;
+  title: string;
+  text?: undefined;
+})[];
+
+
+const collabApps: {
+  id: string;
+  title: string;
+  icon: string;
+  width: number;
+  height: number;
+}[];
 
 }
 
