@@ -1,6 +1,7 @@
 import { brainwaveSymbol, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
+import { LeftCurve, RightCurve } from "./design/Collaboration";
 import Section from "./Section";
 
 const Collaboration: React.FC = () => {
@@ -30,7 +31,7 @@ const Collaboration: React.FC = () => {
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
-          <p className="body-2 mb-4 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:max-auto">
+          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:max-auto">
             {collabText}
           </p>
 
@@ -56,16 +57,21 @@ const Collaboration: React.FC = () => {
                     index * 45
                   }`}
                 >
-                  <img
-                    className="m-auto"
-                    width={app.width}
-                    height={app.height}
-                    alt={app.title}
-                    src={app.icon}
-                  />
+                  <div className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${index * 45}`}>
+                    <img
+                      className="m-auto"
+                      width={app.width}
+                      height={app.height}
+                      alt={app.title}
+                      src={app.icon}
+                    />
+                  </div>
                 </li>
               ))}
             </ul>
+
+            <LeftCurve />
+            <RightCurve />
           </div>
         </div>
       </div>
