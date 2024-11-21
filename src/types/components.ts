@@ -1,5 +1,4 @@
 
-
 export interface ButtonProps {
     className?: string;
     href?: string;
@@ -17,3 +16,9 @@ export interface ButtonProps {
     customPaddings?: boolean;
     children: React.ReactNode;
 }
+
+export interface HeadingProps {
+  className?: string;
+  title?: string;
+  text?: string;
+  }
