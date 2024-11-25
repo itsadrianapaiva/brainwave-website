@@ -97,7 +97,13 @@ const Services: React.FC = () => {
                           : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
                       }`}
                     >
-                      <div className={index === 2 ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]" : ""}>
+                      <div
+                        className={
+                          index === 2
+                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
+                            : ""
+                        }
+                      >
                         <img src={item} width={24} height={24} alt={item} />
                       </div>
                     </li>
@@ -106,7 +112,13 @@ const Services: React.FC = () => {
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img src={service3} className="w-full h-full object-cover" alt="Scary Robot" width={520} height={400}/>
+                <img
+                  src={service3}
+                  className="w-full h-full object-cover"
+                  alt="Scary Robot"
+                  width={520}
+                  height={400}
+                />
 
                 <VideoChatMessage />
                 <VideoBar />
