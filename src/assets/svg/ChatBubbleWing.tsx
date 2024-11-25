@@ -1,4 +1,4 @@
-const ChatBubbleWing = ({ className, pathClassName }) => {
+const ChatBubbleWing: React.FC<{ className?: string; pathClassName?: string }> = ({ className, pathClassName }) => {
   return (
     <svg
       className={`${className || ""}`}
