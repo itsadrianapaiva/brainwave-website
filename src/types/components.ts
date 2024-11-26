@@ -21,4 +21,5 @@ export interface HeadingProps {
   className?: string;
   title?: string;
   text?: string;
+  tag?: string;
   }
