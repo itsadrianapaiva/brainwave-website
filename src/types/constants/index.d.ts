@@ -68,5 +68,24 @@ const pricing: ({
   features: string[];
 })[];
 
+
+const roadmap: ({
+  id: string;
+  title: string;
+  text: string;
+  date: string;
+  status: string;
+  imageUrl: string;
+  colorful: boolean;
+} | {
+  id: string;
+  title: string;
+  text: string;
+  date: string;
+  status: string;
+  imageUrl: string;
+  colorful?: undefined;
+})[];
+
 }
 
