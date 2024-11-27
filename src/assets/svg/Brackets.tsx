@@ -1,4 +1,4 @@
-const brackets = (position) =>
+const brackets: React.FC = (position) =>
   position === "left" ? (
     <svg
       width="5"

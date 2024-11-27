@@ -53,5 +53,20 @@ const collabApps: {
   height: number;
 }[];
 
+
+const pricing: ({
+  id: string;
+  title: string;
+  description: string;
+  price: string;
+  features: string[];
+} | {
+  id: string;
+  title: string;
+  description: string;
+  price: null;
+  features: string[];
+})[];
+
 }
 
