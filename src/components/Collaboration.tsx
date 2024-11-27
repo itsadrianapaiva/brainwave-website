@@ -31,7 +31,7 @@ const Collaboration: React.FC = () => {
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:max-auto">
+          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[40rem] lg:max-auto">
             {collabText}
           </p>
 
