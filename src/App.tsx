@@ -4,6 +4,7 @@ import Collaboration from "./components/Collaboration.tsx";
 import Header from "./components/Header.tsx";
 import Hero from "./components/Hero.tsx";
 import Pricing from "./components/Pricing.tsx";
+import Roadmap from "./components/Roadmap.tsx";
 import Services from "./components/Services.tsx";
 
 
@@ -17,6 +18,7 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
       </div>
 
       <ButtonGradient />
